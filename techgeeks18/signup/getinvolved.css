@@ -1,0 +1,25 @@
+#v{
+	font-size: 25px;
+}
+
+.w3-panel, .w3-border{
+margin-top: 20px;
+margin-left: 225px;
+margin-right: 225px;
+margin-bottom: 20px;
+}
+
+#right{
+	border-right: 2px lightgrey; 
+}
+ .btn{
+ 	background-color:;
+ }
+.submit{
+	margin-left: 520px;
+	display: inline;
+}
+
+#i{
+	display: inline;
+}

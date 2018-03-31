@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>manage/listPage.php</url>
+            <bookmark id="1">
+                <name/>
+                <line>3</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/xampp/AdminPanel/manage/login/loginClass.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/AdminPanel/manage/editPage.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/AdminPanel/manage/addPage.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/AdminPanel/manage/function/connectionClass.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/AdminPanel/manage/page/pageClass.php</file>
+        </group>
+    </open-files>
+</project-private>

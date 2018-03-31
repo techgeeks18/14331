@@ -1,0 +1,41 @@
+<HTML>
+<HEAD>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<TITLE>VERIFY YOUR NUMBER</TITLE>
+</HEAD>
+<BODY>
+
+<SCRIPT>
+		//console.log($)
+		$(document).ready(function(){
+			$(".btn1").click(function(){
+				ph=$(".phno").val();
+				$.post("otp_generator.php" , {"x1": ph} , function(res){
+				 	console.log(res);
+				})
+			})
+		});
+		$(document).ready(function(){
+			$(".btn2").click(function(){
+				 //alert(1)
+				check=$(".otp_get").val();
+				ph=$(".phno").val();
+				//alert(rec)
+				$.post("otp_checker.php" , {"otp_sub": check, "x1": ph} , function(tres){
+				 	alert(tres);
+					//console.log(tres);
+				})
+			})
+		});
+		
+</SCRIPT>
+
+	<input type="text" class="phno" maxlength="10">
+	<input type="button" value="Send OTP TO NUMBER" class="btn1" >
+	<BR>
+	<input type="text" class="otp_get">
+	<input type="button" value="Enter OTP" class="btn2">
+	<BR>
+	<input type="text" class="hidden">
+</BODY>
+</HTML>
